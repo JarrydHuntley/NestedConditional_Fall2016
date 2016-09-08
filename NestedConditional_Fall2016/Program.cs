@@ -16,7 +16,22 @@ namespace NestedConditional_Fall2016
 
             age = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(age);
+            if (age >= 16)
+            {
+                Console.WriteLine("You can drive. >:(");
+
+                if (age >= 18)
+                {
+                    Console.WriteLine("You're an adult?");
+                }
+                else
+                {
+                    Console.WriteLine("You're not an adult yet.");
+                }
+            }
+
+
+
         }
     }
 }
