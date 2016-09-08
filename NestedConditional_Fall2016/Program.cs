@@ -10,6 +10,13 @@ namespace NestedConditional_Fall2016
     {
         static void Main(string[] args)
         {
+            int age;
+
+            Console.WriteLine("Please enter your age.");
+
+            age = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(age);
         }
     }
 }
